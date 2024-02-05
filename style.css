@@ -11,7 +11,7 @@ h1{
     font-size: large;
 }
 
-.billeder {
+.billeder img {
     width: 1000px;
     height: auto;
 }
