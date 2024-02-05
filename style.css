@@ -11,3 +11,7 @@ h1{
     font-size: large;
 }
 
+.billeder {
+    max-width: 1500px;
+    height: auto;
+}
