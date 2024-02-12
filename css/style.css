@@ -1,141 +1,25 @@
 /* Skrifttyper*/
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Questrial&display=swap');
 
 body {
     background-color: #ffffff;
-    font-family: ;
 }
 
+h1{
+    font-family: 'Questrial', sans-serif;
+    font-size: 48px;
+    color: #ED8814;
+}
+
+h2{
+    font-family: "Open Sans",sans-serif;
+    color: #929393;
+    font-size: 20px;
+}
+
+p{
+    font-family: "Open Sans",sans-serif;
+    color: #929393;
+    font-size: 15px;
+}
 
-
-
-
-
-
-
-
-
-
-.flexbox
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*footer*/
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  footer {
-    background-color: #f2efef;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .footer-section {
-    flex: 1;
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .link-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .link-list li {
-    margin-bottom: 5px;
-  }
-
-  /* small screen */
-  @media (max-width: 768px) {
-    .footer-section {
-      flex-basis: 100%;
-      margin-right: 0;
-    }
-  }
