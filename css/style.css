@@ -1,54 +1,43 @@
 /* Skrifttyper*/
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Questrial&display=swap');
 
 body {
     background-color: #ffffff;
-    font-family: ;
 }
 
-<<<<<<< HEAD
 h1{
     font-family: 'Questrial', sans-serif;
     font-size: 48px;
     color: #ED8814;
+    text-align: center;
 }
 
-h4{
+h2{
     font-family: "Open Sans",sans-serif;
     color: #929393;
+    font-size: 20px;
 }
 
 p{
-    font-family: 'Open Sans', sans-serif;
-
+    font-family: "Open Sans",sans-serif;
+    color: #929393;
+    font-size: 15px;
 }
-=======
 
+b{
+    font-weight: bold;
+    color: #5d5d5d;
+}
 
+.forside-tekst-b{
+  text-align: center;
+  padding: 10px;
+}
 
-
-
-
-
-
-
-
-.flexbox
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.forside-tekst{
+  text-align: center;
+  padding: 10px;
+}
 
 
 
@@ -120,25 +109,21 @@ p{
 
 /*footer*/
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
+
   
   footer {
-    background-color: #ccc;
+    background-color: #f2efef;
     padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
   }
   
   .footer-section {
-    flex: 1;
-    margin-right: 10px;
+    max-width: 262.5px;
+    flex-wrap: wrap;
     margin-bottom: 10px;
+    text-align: left;
+
   }
+
   
   .link-list {
     list-style-type: none;
@@ -156,4 +141,19 @@ body {
       margin-right: 0;
     }
   }
->>>>>>> bc5043639a8b6d24bb47b3fc4cdc777eda5efbfc
+
+  .footer-section ul li a,
+  .footer-section p.email,
+  .more {
+    font-family: "Open Sans", sans-serif;
+    color: #ED8814;
+    font-size: 15px;
+    cursor: pointer; /* Ändert den Mauszeiger in eine Hand */
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:top;
+  }
