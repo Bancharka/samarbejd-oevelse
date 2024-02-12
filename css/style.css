@@ -3,7 +3,6 @@
 
 body {
     background-color: #ffffff;
-    font-family: ;
 }
 
 h1{
@@ -12,12 +11,15 @@ h1{
     color: #ED8814;
 }
 
-h4{
+h2{
     font-family: "Open Sans",sans-serif;
     color: #929393;
+    font-size: 20px;
 }
 
 p{
-    font-family: 'Open Sans', sans-serif;
-
+    font-family: "Open Sans",sans-serif;
+    color: #929393;
+    font-size: 15px;
 }
+
