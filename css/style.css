@@ -24,6 +24,7 @@ p{
 }
 
 b{
+    font-weight: bold;
     color: #5d5d5d;
 }
 
@@ -101,25 +102,21 @@ b{
 
 /*footer*/
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
+
   
   footer {
     background-color: #f2efef;
     padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
   }
   
   .footer-section {
-    flex: 1;
-    margin-right: 10px;
+    max-width: 262.5px;
+    flex-wrap: wrap;
     margin-bottom: 10px;
+    text-align: left;
+
   }
+
   
   .link-list {
     list-style-type: none;
@@ -136,4 +133,20 @@ body {
       flex-basis: 100%;
       margin-right: 0;
     }
+  }
+
+  .footer-section ul li a,
+  .footer-section p.email,
+  .more {
+    font-family: "Open Sans", sans-serif;
+    color: #ED8814;
+    font-size: 15px;
+    cursor: pointer; /* Ändert den Mauszeiger in eine Hand */
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:top;
   }
