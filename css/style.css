@@ -89,6 +89,46 @@ section {
 
 
 
+  header {
+    padding: 25px 0px 31px;
+    height: 206px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.floater {
+    position: absolute;
+    left: 200px;    
+    color: rgb(111, 111, 111);
+
+}
+
+.logo {
+    height: 150px;
+  
+}
+
+.logodiv {
+    display: flex;
+    justify-content: center;
+}
+
+.navul ul {     
+
+    display: flex;
+    flex-direction: row;      
+    justify-content: space-evenly;
+    color: #ed8814;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px dotted grey;
+    border-top: 1px dotted grey;
+    height: 40px;
+    align-items: center;
+}
 
 
 
