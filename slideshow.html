@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slideshow</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/slideshow.css">
+    <script src="slideshow.js" defer></script>
+</head>
+
+<body>
+    <div class="slideshow-container">
+
+        <div class="krohnSlider fade">
+          <div class="nummertekst">1 / 3</div>
+          <img src="img/robbe-berking-love-spoon.jpg" style="width:100%">
+          <div class="tekst">Robbe Berking Love spoon</div>
+        </div>
+        
+        <div class="krohnSlider fade">
+          <div class="nummertekst">2 / 3</div>
+          <img src="img/ich-und-du.jpg" style="width:100%">
+          <div class="tekst">Thomas Sabo Sale skilt</div>
+        </div>
+        
+        <div class="krohnSlider fade">
+          <div class="nummertekst">3 / 3</div>
+          <img src="img/sg-boden.jpg" style="width:100%">
+          <div class="tekst">Meisterboden 2018 display</div>
+        </div>
+        
+        <a class="tidligere" onclick="plusSlides(-1)">❮</a>
+        <a class="naeste" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="prikker" onclick="currentSlide(1)"></span> 
+          <span class="prikker" onclick="currentSlide(2)"></span> 
+          <span class="prikker" onclick="currentSlide(3)"></span> 
+        </div>
+</body>
+
+</html>
