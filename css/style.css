@@ -1,7 +1,8 @@
 /* Skrifttyper*/
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Questrial&display=swap');
 
 body {
     background-color: #ffffff;
-    font-family: ;
+    font-family: 'Open Sans', sans-serif;
 }
+
