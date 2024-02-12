@@ -62,11 +62,11 @@
   background-color: #ED8814;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  transition: background-color 0.2s ease;
 }
 
 .active, .prikker:hover {
-  background-color: #efb674;
+  background-color: #f5cfa4;
 }
 
 /* Fading af knapper */

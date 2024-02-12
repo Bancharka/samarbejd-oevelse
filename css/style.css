@@ -9,6 +9,7 @@ h1{
     font-family: 'Questrial', sans-serif;
     font-size: 48px;
     color: #ED8814;
+    text-align: center;
 }
 
 h2{
@@ -28,9 +29,15 @@ b{
     color: #5d5d5d;
 }
 
+.forside-tekst-b{
+  text-align: center;
+  padding: 10px;
+}
 
-
-
+.forside-tekst{
+  text-align: center;
+  padding: 10px;
+}
 
 
 
