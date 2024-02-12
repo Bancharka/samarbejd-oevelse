@@ -9,12 +9,14 @@ h1{
     font-family: 'Questrial', sans-serif;
     font-size: 48px;
     color: #ED8814;
+    text-align: center;
 }
 
 h2{
     font-family: "Open Sans",sans-serif;
     color: #929393;
     font-size: 20px;
+    text-align: center;
 }
 
 p{
@@ -28,6 +30,15 @@ b{
     color: #5d5d5d;
 }
 
+.forside-tekst-b{
+  text-align: center;
+  padding: 10px;
+}
+
+.forside-tekst{
+  text-align: center;
+  padding: 10px;
+}
 
 
 
@@ -35,6 +46,42 @@ b{
 
 
 
+/* side 2 styles */
+
+section {
+  padding: 2em 2em;
+  }
+
+  .container {
+      width: 80%;
+      margin: auto;
+  }
+  
+  .billedegrid {
+      display: grid;
+      justify-content: center;
+      grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .billede-container {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      padding: 20px 20px;
+      display: flex;
+      justify-content: center;
+      border-right: 1px dotted;
+      border-bottom: 1px dotted;
+  }
+  
+  .billede-container img {
+      width: 80%;
+      height: 400px;
+      display: block;
+      object-fit: contain;
+  }
 
 
 
@@ -42,6 +89,46 @@ b{
 
 
 
+  header {
+    padding: 25px 0px 31px;
+    height: 206px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.floater {
+    position: absolute;
+    left: 200px;    
+    color: rgb(111, 111, 111);
+
+}
+
+.logo {
+    height: 150px;
+  
+}
+
+.logodiv {
+    display: flex;
+    justify-content: center;
+}
+
+.navul ul {     
+
+    display: flex;
+    flex-direction: row;      
+    justify-content: space-evenly;
+    color: #ed8814;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px dotted grey;
+    border-top: 1px dotted grey;
+    height: 40px;
+    align-items: center;
+}
 
 
 
