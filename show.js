@@ -47,8 +47,19 @@ function showSlides(n, slideshowId) {
     thumbnails[n - 1].classList.add("active");
 }
 
+// Event listener til at kalde showSlides, når alle billeder er indlæst
 window.addEventListener('load', (event) => {
-    for (let i = 0; i < numSlideshows; i++) {
-        showSlides(1, `slideshow-container-${i + 1}`);
-    }
+    // Dette kaldes, når alle ressourcer (billeder) er blevet indlæst
+    
+    // Slideshow 1
+    slideIndexes[0] = 1;
+    showSlides(slideIndexes[0], 'slideshow-container-1');
+
+    // Slideshow 2
+    slideIndexes[1] = 1;
+    showSlides(slideIndexes[1], 'slideshow-container-2');
+
+    // Slideshow 3
+    slideIndexes[2] = 1;
+    showSlides(slideIndexes[2], 'slideshow-container-3');
 });
