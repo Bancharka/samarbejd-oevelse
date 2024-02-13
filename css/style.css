@@ -18,7 +18,7 @@ h2{
     color: #929393;
     font-size: 20px;
     text-align: center;
-    padding: 1em;
+    padding-bottom: 1em;
 }
 
 h3{
@@ -26,7 +26,7 @@ h3{
   font-size: 30px;
   color: #ED8814;
   text-align: center;
-  padding: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 h2{
@@ -34,7 +34,7 @@ h2{
   color: #191a1a;
   font-size: 15px;
   text-align: center;
-  padding: 1em;
+  padding-bottom: 1em;
   font-weight: bold;
 }
 
