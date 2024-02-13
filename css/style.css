@@ -57,43 +57,84 @@ b{
 
 
 
-/* side 2 styles */
+/* side 2 styles galleri */
 
-section {
-  padding: 2em 2em;
-  }
+.flex {
+display: flex;
+overflow-x: hidden;
+flex-direction: row;
+justify-content: center;
+}
 
-  .container {
-      width: 80%;
-      margin: auto;
-  }
-  
-  .billedegrid {
-      display: grid;
-      justify-content: center;
-      grid-template-columns: repeat(3, 1fr);
-  }
-  
-  .billede-container {
-      position: relative;
-      overflow: hidden;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      padding: 20px 20px;
-      display: flex;
-      justify-content: center;
-      border-right: 1px dotted;
-      border-bottom: 1px dotted;
-  }
-  
-  .billede-container img {
-      width: 80%;
-      height: 400px;
-      display: block;
-      object-fit: contain;
-  }
+.gallery-container {
+  max-width: 600px; 
+  margin: 20px; 
+  display: flex;
+  overflow-x: hidden;
+  flex-direction: column;
+  justify-content: center;
+}
 
+#slideshow-container-1,
+#slideshow-container-2,
+#slideshow-container-3,
+#slideshow-container-4 {
+    max-width: 600px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+    width: 100%;
+}
+
+.mySlides img {
+    width: 500px;
+    height: auto;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.thumbnail-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.thumbnail {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.thumbnail.active {
+    border: 2px solid #ED8814;
+}
 
 
 

@@ -8,100 +8,115 @@
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/styletilside2.css">
+    <script src="show.js" defer></script>
 </head>
 
-<header>
-
-    <div class="floater">
-        Unternehemen
-        Ideenenwicklung
-        Kontakt
-    </div>
-    <div class="logodiv">
-        <img class="logo" src="/img/krohn_logo.svg" alt="Der Krohn logo">
-    </div>
-    
-</header>
-
-<nav>
-        
-    <div class="navul">
-        <ul>
-            <li>Bodendisplays</li>
-            <li>Etuis</li>
-            <li>Kunststofdisplays</li>
-            <li>Schacteln</li>
-            <li>Schafuensterdekos</li>
-            <li>Tresendisplays</li>
-            <li>Industrieprodukte</li>
-            
-        </ul>
-    </div>
-
-</nav>
-
-
 <body>
-    <header>
         <div>
             <h1>Din Header Her</h1>
         </div>
-    </header>
-
-    <section>
-        <div class="container">
-            <h1>Etuis</h1>
-            <h4>Mit unseren hochwertig entwickelten Etuis setzen wir Ihr Produkt gekonnt in Szene</h4>
-            <div class="billedegrid">
-                <div class="billede-container">
-                    <img src="img/billede1.jpeg" alt="kasse">
-                </div>
-                <div class="billede-container">
-                    <img src="img/billede2.jpeg" alt="en kasse med bestik">
-                </div>
-                <div class="billede-container">
-                    <img src="img/billede3.jpeg" alt="ho ho ho kasse">
-                </div>
-                <div class="billede-container">
-                    <img src="img/billede4.jpeg" alt="kasse">
-                </div>
-                <div class="billede-container">
-                    <img src="img/billede5.jpeg" alt="en kasse med bestik">
-                </div>
-                <div class="billede-container">
-                    <img src="img/billede6.jpeg" alt="ho ho ho kasse">
-                </div>
-                <div class="billede-container">
-                    <img src="img/billede7.jpeg" alt="kasse">
-                </div>
-                <div class="billede-container">
-                    <img src="img/billede8.jpeg" alt="en kasse med bestik">
-                </div>
-                <div class="billede-container">
-                    <img src="img/billede9.jpeg" alt="ho ho ho kasse">
-                </div>
-                <div class="billede-container">
-                    <img src="img/billede10.jpeg" alt="kasse">
-                </div>
-                <div class="billede-container">
-                    <img src="img/billede11.jpeg" alt="en kasse med bestik">
-                </div>
-                <div class="billede-container">
-                    <img src="img/billede12.jpeg" alt="ho ho ho kasse">
-                </div>
-                <div class="billede-container">
-                    <img src="img/billede13.jpeg" alt="kasse">
-                </div>
-                <div class="billede-container">
-                    <img src="img/billede14.jpeg" alt="en kasse med bestik">
-                </div>
-                <div class="billede-container">
-                    <img src="img/billede15.jpeg" alt="ho ho ho kasse">
-                </div>
+    <section class="flex">
+    <section class="gallery-container">
+        <div id="slideshow-container-1">
+            <div class="mySlides">
+                <img src="img/billede1.jpeg" alt="Slide 1">
             </div>
+            <div class="mySlides">
+                <img src="img/billede1a.jpg" alt="Slide 2">
+            </div>
+            <div class="mySlides">
+                <img src="img/billede1b.jpg" alt="Slide 3">
+            </div>
+            <div class="mySlides">
+                <img src="img/billede1c.jpg" alt="Slide 4">
+            </div>
+            <a class="prev" onclick="plusSlides(1, 'slideshow-container-1')">&#10094;</a>
+            <a class="next" onclick="plusSlides(-1, 'slideshow-container-1')">&#10095;</a>
+        </div>
+        <div class="thumbnail-container">
+            <img src="img/billede1.jpeg" class="thumbnail" onclick="currentSlide(1, 'slideshow-container-1')" alt="Thumbnail 1">
+            <img src="img/billede1a.jpg" class="thumbnail" onclick="currentSlide(2, 'slideshow-container-1')" alt="Thumbnail 2">
+            <img src="img/billede1b.jpg" class="thumbnail" onclick="currentSlide(3, 'slideshow-container-1')" alt="Thumbnail 3">
+            <img src="img/billede1c.jpg" class="thumbnail" onclick="currentSlide(4, 'slideshow-container-1')" alt="Thumbnail 4">
         </div>
     </section>
-    <footer>
+
+    <section class="gallery-container">
+        <div id="slideshow-container-2">
+            <div class="mySlides">
+                <img src="img/billede2.jpeg" alt="Slide 1">
+            </div>
+            <div class="mySlides">
+                <img src="img/billede2a.jpg" alt="Slide 2">
+            </div>
+            <div class="mySlides">
+                <img src="img/billede2b.jpg" alt="Slide 3">
+            </div>
+            <div class="mySlides">
+                <img src="img/billede2c.jpg" alt="Slide 4">
+            </div>
+            <a class="prev" onclick="plusSlides(1, 'slideshow-container-2')">&#10094;</a>
+            <a class="next" onclick="plusSlides(-1, 'slideshow-container-2')">&#10095;</a>
+        </div>
+        <div class="thumbnail-container">
+            <img src="img/billede2.jpeg" class="thumbnail" onclick="currentSlide(1, 'slideshow-container-2')" alt="Thumbnail 1">
+            <img src="img/billede2a.jpg" class="thumbnail" onclick="currentSlide(2, 'slideshow-container-2')" alt="Thumbnail 2">
+            <img src="img/billede2b.jpg" class="thumbnail" onclick="currentSlide(3, 'slideshow-container-2')" alt="Thumbnail 3">
+            <img src="img/billede2c.jpg" class="thumbnail" onclick="currentSlide(4, 'slideshow-container-2')" alt="Thumbnail 4">
+        </div>
+    </section>
+
+    <section class="gallery-container">
+        <div id="slideshow-container-3">
+            <div class="mySlides">
+                <img src="img/billede3.jpeg" alt="Slide 1">
+            </div>
+            <div class="mySlides">
+                <img src="img/billede3a.jpg" alt="Slide 2">
+            </div>
+            <div class="mySlides">
+                <img src="img/billede3b.jpg" alt="Slide 3">
+            </div>
+            <div class="mySlides">
+                <img src="img/billede3c.jpg" alt="Slide 4">
+            </div>
+            <a class="prev" onclick="plusSlides(1, 'slideshow-container-3')">&#10094;</a>
+            <a class="next" onclick="plusSlides(-1, 'slideshow-container-3')">&#10095;</a>
+        </div>
+        <div class="thumbnail-container">
+            <img src="img/billede3.jpeg" class="thumbnail" onclick="currentSlide(1, 'slideshow-container-3')" alt="Thumbnail 1">
+            <img src="img/billede3a.jpg" class="thumbnail" onclick="currentSlide(2, 'slideshow-container-3')" alt="Thumbnail 2">
+            <img src="img/billede3b.jpg" class="thumbnail" onclick="currentSlide(3, 'slideshow-container-3')" alt="Thumbnail 3">
+            <img src="img/billede3c.jpg" class="thumbnail" onclick="currentSlide(4, 'slideshow-container-3')" alt="Thumbnail 4">
+        </div>
+    </section>
+
+    <section class="gallery-container">
+        <div id="slideshow-container-4">
+            <div class="mySlides">
+                <img src="img/billede4.jpeg" alt="Slide 1">
+            </div>
+            <div class="mySlides">
+                <img src="img/billede4a.jpg" alt="Slide 2">
+            </div>
+            <div class="mySlides">
+                <img src="img/billede4b.jpg" alt="Slide 3">
+            </div>
+            <div class="mySlides">
+                <img src="img/billede4c.jpg" alt="Slide 4">
+            </div>
+            <a class="prev" onclick="plusSlides(1, 'slideshow-container-4')">&#10094;</a>
+            <a class="next" onclick="plusSlides(-1, 'slideshow-container-4')">&#10095;</a>
+        </div>
+        <div class="thumbnail-container">
+            <img src="img/billede4.jpeg" class="thumbnail" onclick="currentSlide(1, 'slideshow-container-4')" alt="Thumbnail 1">
+            <img src="img/billede4a.jpg" class="thumbnail" onclick="currentSlide(2, 'slideshow-container-4')" alt="Thumbnail 2">
+            <img src="img/billede4b.jpg" class="thumbnail" onclick="currentSlide(3, 'slideshow-container-4')" alt="Thumbnail 3">
+            <img src="img/billede4c.jpg" class="thumbnail" onclick="currentSlide(4, 'slideshow-container-4')" alt="Thumbnail 4">
+        </div>
+    </section>
+</section>
+<footer>
         <div class="container">
           <div class="footer-section">
               <p><b>Über uns</b></p>
@@ -129,6 +144,11 @@
             </div>
         </div>
       </footer>
+
 </body>
+
+
+
+
 
 </html>
