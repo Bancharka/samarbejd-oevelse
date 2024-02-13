@@ -140,7 +140,7 @@ section {
     align-items: center;
 }
 
-.navul li{
+.navul{
   display: none;  
 }
 
@@ -275,7 +275,7 @@ z-index: 20;
   color: #ED8814;
   cursor: pointer;
   line-height: 50px;
-  padding: 30px;
+  margin-left: 66px;
 }
 
 
