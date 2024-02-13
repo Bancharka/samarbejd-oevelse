@@ -135,6 +135,10 @@ section {
     align-items: center;
 }
 
+.navul li{
+  display: none;  
+}
+
 /* SLIDESHOW */
 /* Slideshow container */
 .slideshow-container {
