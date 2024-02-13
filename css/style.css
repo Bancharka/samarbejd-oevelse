@@ -32,17 +32,22 @@ b{
 
 .forside-tekst-b{
   text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 40px;
 }
 
 .forside-tekst{
   text-align: center;
   text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 20px;
+  margin-left: 280px;
+  margin-right: 280px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.individuell{
+  margin-top: 100px;
   margin-bottom: 20px;
 }
 
@@ -220,11 +225,6 @@ section {
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
-.individuell{
-  margin-top: 100px;
-}
-
 
 
 
