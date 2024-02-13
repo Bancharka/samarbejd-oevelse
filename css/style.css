@@ -10,6 +10,7 @@ h1{
     font-size: 48px;
     color: #ED8814;
     text-align: center;
+    padding: 1.5em;
 }
 
 h2{
@@ -17,12 +18,23 @@ h2{
     color: #929393;
     font-size: 20px;
     text-align: center;
+    padding: 1em;
+}
+
+h3{
+  font-family: 'Questrial', sans-serif;
+  font-size: 30px;
+  color: #ED8814;
+  text-align: center;
+  padding: 0.5em;
 }
 
 p{
     font-family: "Open Sans",sans-serif;
     color: #929393;
     font-size: 15px;
+    text-align: center;
+    padding: 0.5em;
 }
 
 b{
@@ -65,6 +77,10 @@ hr.custom-line {
 
 
 /* side 2 styles galleri */
+
+section {
+  padding: 2em;
+}
 
 .flex {
 display: flex;
