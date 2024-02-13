@@ -103,8 +103,10 @@ section {
 }
 
 .floater {
-    word-spacing: 15px; 
-    color: rgb(111, 111, 111);
+  position: absolute;
+  word-spacing: 15px; 
+  color: rgb(111, 111, 111);
+  left: 70px;
 }
 
 .logo {
