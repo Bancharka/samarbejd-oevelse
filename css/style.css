@@ -29,6 +29,15 @@ h3{
   padding: 0.5em;
 }
 
+h2{
+  font-family: "Open Sans",sans-serif;
+  color: #191a1a;
+  font-size: 15px;
+  text-align: center;
+  padding: 1em;
+  font-weight: bold;
+}
+
 p{
     font-family: "Open Sans",sans-serif;
     color: #929393;
