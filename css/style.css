@@ -53,14 +53,7 @@ b{
 
 
 
-hr.custom-line {
-  border: none;
-  height: 1px; 
-  background-color: #ED8814;
-  margin: 20px 0;
-  margin-left: 20px;
-  margin-right: 20px;
-}
+
 
 
 
@@ -393,7 +386,16 @@ body {font-family: Arial, Helvetica, sans-serif;}
   }
 }
 
+.mainkasse {
+  margin-top: 50px;
+}
 
+.mitbill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
