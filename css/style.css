@@ -53,7 +53,14 @@ b{
 
 
 
-
+hr.custom-line {
+  border: none;
+  height: 1px; 
+  background-color: #ED8814;
+  margin: 20px 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 
 
