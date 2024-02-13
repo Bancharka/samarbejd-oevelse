@@ -70,16 +70,18 @@ hr.custom-line {
   max-width: 600px; 
   margin: 20px; 
   display: inline-block;
-  justify-content: center;
 }
 
 .gallery-container {
   overflow-x: hidden;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #slideshow-container-1,
 #slideshow-container-2,
-#slideshow-container-3 {
+#slideshow-container-3,
+#slideshow-container-4 {
     max-width: 600px;
     position: relative;
     margin: auto;

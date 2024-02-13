@@ -46,3 +46,9 @@ function showSlides(n, slideshowId) {
     slides[n - 1].style.display = "block";
     thumbnails[n - 1].classList.add("active");
 }
+
+window.addEventListener('load', (event) => {
+    for (let i = 0; i < numSlideshows; i++) {
+        showSlides(slideIndexes[i], `slideshow-container-${i + 1}`);
+    }
+});
