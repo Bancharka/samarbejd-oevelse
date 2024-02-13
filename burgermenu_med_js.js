@@ -10,16 +10,15 @@ var menuOptions = [
 
 function openNav() {
   var sidenav = document.getElementById("mySidenav");
-  // Leeren des Inhalts
-  sidenav.innerHTML = "";
-  // Durchlaufen des Arrays und Hinzufügen der Links
+  sidenav.innerHTML = '<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>';
+  // løb igennem array og tilføj menuoptioner
   menuOptions.forEach(function(option) {
       var link = document.createElement("a");
       link.href = option.url;
       link.textContent = option.title;
       sidenav.appendChild(link);
   });
-  // Menü öffnen
+ //åben menu
   sidenav.style.width = "350px";
 }
 

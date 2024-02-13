@@ -26,6 +26,7 @@
   }
 
 .sidenav .closebtn {
+  font-family: 'Questrial', sans-serif;
   position: absolute;
   top: 0;
   right: 25px;
@@ -33,9 +34,12 @@
   margin-left: 50px;
 }
 
+.closebtn {
+  z-index: 20;
+}
 
 
-  #menu-title {
+#menu-title {
     font-family: 'Questrial', sans-serif;
     font-size: 40px;
     color: #ED8814;
