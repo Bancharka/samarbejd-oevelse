@@ -26,12 +26,13 @@
   }
 
 .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
 
 
   #menu-title {
@@ -42,3 +43,5 @@
     line-height: 50px;
     padding: 30px;
 }
+
+
