@@ -32,16 +32,16 @@ b{
 
 .forside-tekst-b{
   text-align: center;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
   margin-top: 20px;
 }
 
 .forside-tekst{
   text-align: center;
   text-align: center;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -103,10 +103,8 @@ section {
 }
 
 .floater {
-    position: absolute;
-    left: 200px;    
+    word-spacing: 15px; 
     color: rgb(111, 111, 111);
-
 }
 
 .logo {
