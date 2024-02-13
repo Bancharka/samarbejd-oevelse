@@ -66,15 +66,19 @@ hr.custom-line {
 
 /* side 2 styles galleri */
 
-.gallery-container {
-  max-width: 600px; 
-  margin: 20px; 
-  display: inline-block;
+.flex {
+display: flex;
+overflow-x: hidden;
+flex-direction: row;
+justify-content: center;
 }
 
 .gallery-container {
+  max-width: 600px; 
+  margin: 20px; 
+  display: flex;
   overflow-x: hidden;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 

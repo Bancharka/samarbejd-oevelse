@@ -49,6 +49,6 @@ function showSlides(n, slideshowId) {
 
 window.addEventListener('load', (event) => {
     for (let i = 0; i < numSlideshows; i++) {
-        showSlides(slideIndexes[i], `slideshow-container-${i + 1}`);
+        showSlides(1, `slideshow-container-${i + 1}`);
     }
 });
