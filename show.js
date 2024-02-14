@@ -43,7 +43,7 @@ function showSlides(n, slideshowId) {
         thumbnails[i].classList.remove("active");
     }
 
-    slides[n - 1].style.display = "block";
+      slideIndexes[n - 1].style.display = "block";
     thumbnails[n - 1].classList.add("active");
 }
 
