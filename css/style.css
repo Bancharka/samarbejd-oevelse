@@ -285,12 +285,7 @@ justify-content: center;
 
 .active, .prikker:hover {
   background-color: #f5cfa4;
-}
-
-/* Fading af knapper */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+  
 }
 
 
