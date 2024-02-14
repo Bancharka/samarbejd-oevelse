@@ -1,6 +1,6 @@
 let menuOptions = [
   { title: "BODENDISPLAYS", url: "#" },
-  { title: "ETUIS", url: "/side2.html" },
+  { title: "ETUIS", href: "side2.html" },
   { title: "KUNSTSTOFFDISPLAYS", url: "#" },
   { title: "SCHACHTELN", url: "#" },
   { title: "SCHAUFENSTERDEKOS", url: "#" },
