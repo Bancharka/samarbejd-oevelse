@@ -1,11 +1,11 @@
 let menuOptions = [
-  { title: "BODENDISPLAYS", url: "https://www.krohn-displays.de/produkte/bodendisplays/" },
-  { title: "ETUIS", url: "https://www.krohn-displays.de/produkte/etuis/" },
-  { title: "KUNSTSTOFFDISPLAYS", url: "https://www.krohn-displays.de/produkte/kunststoffdisplays/" },
-  { title: "SCHACHTELN", url: "https://www.krohn-displays.de/produkte/schachteln/" },
-  { title: "SCHAUFENSTERDEKOS", url: "https://www.krohn-displays.de/produkte/schaufensterdekos/" },
-  { title: "TRESENDISPLAYS", url: "https://www.krohn-displays.de/produkte/tresendisplays/" },
-  { title: "INDUSTRIEPRODUKTE", url: "https://www.krohn-displays.de/produkte/industrieprodukte/" }
+  { title: "BODENDISPLAYS", url: "#" },
+  { title: "ETUIS", url: "/side2.html" },
+  { title: "KUNSTSTOFFDISPLAYS", url: "#" },
+  { title: "SCHACHTELN", url: "#" },
+  { title: "SCHAUFENSTERDEKOS", url: "#" },
+  { title: "TRESENDISPLAYS", url: "#" },
+  { title: "INDUSTRIEPRODUKTE", url: "#" }
 ];
 
 function openNav() {
