@@ -1,26 +1,34 @@
 let slide = 1;
-slidesShow(slide);
+banan(slide);
 
 function plusSlides(n) {
-  slidesShow(slide += n);
+  banan(slide += n);
 }
 
-function currentSlide(n) {
-  slidesShow(slide = n);
+function prik(n) {
+  banan(slide = n);
 }
 
-function slidesShow(n) {
+function banan(n) {
   let i;
-  let slides = document.getElementsByClassName("krohnSlider");
+  let hentElementer = document.getElementsByClassName("krohnSlider");
   let dots = document.getElementsByClassName("prikker");
-  if (n > slides.length) {slide = 1}    
-  if (n < 1) {slide = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+  if (n > hentElementer.length) 
+    {slide = 1}    
+  if (n < 1) 
+  {slide = hentElementer.length}
+  
+  for (i = 0;  i< hentElementer.length; i++) {
+    hentElementer[i].style.display = "none";  
   }
+  hentElementer[slide-1].style.display = "block";  
+  
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+    dots[i].className = dots[i].className.replace(" active", ""); // Fjerne orange fade fra knapper ikke i brug
   }
-  slides[slide-1].style.display = "block";  
-  dots[slide-1].className += " active";
+  dots[slide-1].className += " active";  // gør knapperne faded orange
+
+
 }
+
+
